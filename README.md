@@ -3,6 +3,12 @@
 - EmployWise is a React-based user management application that integrates with the Reqres API. This project allows users to authenticate, view a paginated list of users, edit user details, and delete users. The application is deployed using Firebase.
 - I have already created a blog website using a local JSON server as a database. For fetching, deleting, and creating data, I use API endpoints. This project has been very helpful in implementing the EmployWise application.
 - [Live Link](https://employwise-f29b5.web.app)
+### WorkFlow
+- Users enter their email and password and click Sign Up to register.
+- After signing up, the Sign Out and User List buttons appear.
+- Clicking User List displays all registered users.
+- Only the logged-in user will see the Edit and Delete buttons for their own details.
+- Users cannot edit or delete other users' information for security reasons.
 ### Features
 - Authentication: Login using provided credentials and store authentication token.
 - User Management: View paginated user list, Search and filter users, Edit user details, Delete users.
